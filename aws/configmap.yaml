@@ -3,7 +3,7 @@ kind: ConfigMap
 metadata:
   name: configmap
 data:
-  studentdb_url: jdbc:mysql://student-service-db.cvkaygo0wrdw.ap-south-1.rds.amazonaws.com:3306/student_service_db
+  studentdb_url: jdbc:mysql://database-1.cvkaygo0wrdw.ap-south-1.rds.amazonaws.com:3306/student_service_db
 
   
   

@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: student-service-config
+  namespace: student-service
+data:
+  config.properties: |
+    spring.datasource.username=YWRtaW4=
+    spring.datasource.password=U2FpRGl2eWEjMTE=

@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: studentapp
-          image: yathambalaiah/student-service:1
+          image: codedecode25/restaurant-listing-service:4
           imagePullPolicy: Always
           ports:
             - containerPort: 9091
@@ -35,7 +35,7 @@ spec:
               valueFrom:
                 configMapKeyRef:
                   name: configmap
-                  key: restaurantdb_url
+                  key: studentdb_url
 ---
 apiVersion: v1
 kind: Service
